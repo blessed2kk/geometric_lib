@@ -11,6 +11,10 @@ def area(a, b):
     
     Returns:
     float: The area of the rectangle.
+
+    Example:
+    - area(1, 1)    
+    - Result: 1
     """
     return a * b
 
@@ -27,5 +31,9 @@ def perimeter(a, b):
     
     Returns:
     float: The perimeter of the rectangle.
+
+    Exmaple:
+    - perimeter(1, 1)  
+    - Result: 4
     """
     return 2 * (a + b)

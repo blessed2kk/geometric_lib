@@ -12,6 +12,10 @@ def area(r):
     
     Returns:
     float: The area of the circle.
+
+    Example:
+    - area(1)          
+    - Result: 3.1416
     """
     return math.pi * r * r
 
@@ -27,5 +31,9 @@ def perimeter(r):
     
     Returns:
     float: The circumference of the circle.
+
+     Example:
+    - perimeter(1)    
+    - Result: 6.2832
     """
     return 2 * math.pi * r

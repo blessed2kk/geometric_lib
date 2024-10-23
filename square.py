@@ -10,6 +10,10 @@ def area(a):
     
     Returns:
     float: The area of the square.
+
+    Example:
+    - area(1)          
+    - Result: 1
     """
     return a * a
 
@@ -26,5 +30,9 @@ def perimeter(a):
     
     Returns:
     float: The perimeter of the square.
+
+    Example:
+    - perimeter(1)     
+    - Result: 4
     """
     return 4 * a
